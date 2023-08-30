@@ -1,0 +1,232 @@
+/* shop.css */
+.shop-display {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .shop-details {
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .shop-details p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .actions button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  .product-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    width: 90%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .product-modal h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .product-modal form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-modal input,
+  .product-modal textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .product-modal input[type='file'] {
+    margin-bottom: 20px;
+  }
+  
+  .product-modal button[type='submit'] {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-modal button[type='submit']:hover {
+    background-color: #0056b3;
+  }
+  
+  .product-modal .btn-close-modal {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  /* Add this CSS to your 'shop.css' file */
+
+/* Styles for the product details modal */
+.product-details-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    width: 90%; /* Set the width as a percentage or fixed value as needed */
+  }
+  
+  /* Modal heading */
+  .product-details-modal h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  /* Product details */
+  .product-details-modal p {
+    margin-bottom: 10px;
+  }
+  
+  /* Product image */
+  .product-details-modal img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  /* Close button */
+  .product-details-modal button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .product-details-modal button:hover {
+    background-color: #2980b9;
+  }
+  /* Update Shop Details modal */
+.update-shop-modal-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    width: 90%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .update-shop-modal-card h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .update-shop-modal-card form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .update-shop-modal-card .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .update-shop-modal-card label {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .update-shop-modal-card input,
+  .update-shop-modal-card textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .update-shop-modal-card input[type='file'] {
+    margin-bottom: 20px;
+  }
+  
+  .update-shop-modal-card button[type='submit'] {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .update-shop-modal-card button[type='submit']:hover {
+    background-color: #0056b3;
+  }
+  
+  .update-shop-modal-card .btn-close-modal {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  

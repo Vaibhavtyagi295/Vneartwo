@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  position: relative;
+  height: 33vh;
+  overflow: hidden;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+  z-index: 1;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1rem;
+  font-family: 'Roboto', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  opacity: 0.8;
+  font-family: 'Roboto', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.overlay:hover .title {
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.overlay:hover .subtitle {
+  opacity: 1;
+}

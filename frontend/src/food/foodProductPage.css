@@ -1,0 +1,48 @@
+/* General styles */
+.product-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Product image */
+.product-image {
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Product details card */
+.product-details-card {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* "Contact via WhatsApp" button */
+.contact-button {
+  background-color: #2f6e29 !important;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #FFCC33;
+}
+.star-icon{
+  color: #FFCC33;
+}
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  .product-details-card {
+    margin-top: 20px;
+  }
+
+  .contact-button {
+    width: 100%; /* Make the button full width */
+    margin-top: 10px;
+  }
+}

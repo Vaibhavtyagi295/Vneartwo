@@ -1,0 +1,27 @@
+/* productPage.css */
+
+/* Custom styles for the product page */
+.product-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  /* Add fade-in animation */
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Add the animation keyframes */
+.whatsapp-button{
+  background-color: green !important;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.whatsapp-button {
+  margin-top: 10px;
+}
+
+/* Responsive styles */
+/* Add your responsive CSS here to adjust the layout for different screen sizes */

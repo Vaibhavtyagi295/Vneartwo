@@ -1,0 +1,123 @@
+/* oldItemPage.css */
+
+.old-item-container {
+  padding: 20px;
+}
+
+.old-item-details h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.old-item-details p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.old-item-details button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.old-item-details button:hover {
+  background-color: #0056b3;
+}
+
+.old-item-reviews h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.review-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.review-item p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.review-rating {
+  color: #f39c12;
+}
+
+.add-review-form h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.add-review-form form {
+  margin-top: 20px;
+}
+
+.add-review-form form label {
+  font-size: 16px;
+}
+
+.add-review-form form textarea {
+  resize: vertical;
+}
+
+.add-review-form form select {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+}
+
+.add-review-form form button {
+  margin-top: 10px;
+}
+
+/* Modal styles */
+
+.modal-header {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.modal-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.modal-body form {
+  margin-top: 20px;
+}
+
+.modal-body form label {
+  font-size: 16px;
+}
+
+.modal-body form input,
+.modal-body form button {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.modal-body form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-body form button:hover {
+  background-color: #0056b3;
+}
+
+.modal-footer {
+  border: none;
+}
+

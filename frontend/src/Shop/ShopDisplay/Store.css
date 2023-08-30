@@ -1,0 +1,111 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.seller-shop {
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f3eded !important;
+}
+
+.profile {
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.star-rating {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.star-rating .star {
+  color: gold;
+  margin-left: 5px;
+}
+
+.profile h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.profile p {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  font-size: 16px;
+  background-color: #ff8d8d; /* Light coral pink */
+  color: #fff;
+  transition: background-color 0.2s;
+}
+
+.buttons button.active {
+  background-color: #ff6b6b; /* Coral pink */
+}
+
+.products,
+.reviews {
+  width: 50%;
+}
+
+.products ul,
+.reviews ul {
+  list-style: none;
+  padding: 0;
+}
+
+.products li,
+.reviews li {
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s;
+}
+
+.products li:hover,
+.reviews li:hover {
+  background-color: #f1f1f1;
+}
+
+.products li p,
+.reviews li p {
+  display: none;
+  margin-top: 10px;
+}
+
+.products li.active,
+.reviews li.active {
+  background-color: #e0e0e0;
+}
+
+.products li.active p,
+.reviews li.active p {
+  display: block;
+}

@@ -1,0 +1,176 @@
+.sidebar {
+  margin-top: 0;
+  background-color: black;
+  width: 250px;
+  transition: width 0.3s ease;
+}
+
+.sidebar.collapsed {
+  width: 60px;
+}
+
+.sidebar .toggle-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.sidebar.collapsed .toggle-btn {
+  justify-content: flex-start;
+}
+
+.sidebar .toggle-btn i {
+  transition: all 0.3s ease;
+}
+
+.sidebar.collapsed .toggle-btn i {
+  margin-left: 5px;
+}
+
+.sidebar ul {
+  color: black;
+  padding-left: 0;
+  margin-top: 3rem;
+}
+
+.sidebar ul li {
+  margin-bottom: 2rem;
+}
+
+.sidebar ul li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar ul li a h5 {
+  margin: 0;
+}
+
+.sidebar ul li a i {
+  margin-right: 1rem;
+}
+
+.sidebar ul li ul {
+  list-style: none;
+  padding-left: 3rem;
+  display: none;
+}
+
+.sidebar ul li ul li {
+  margin-bottom: 1rem;
+}
+
+.sidebar ul li ul li a i {
+  margin-right: 0.5rem;
+}
+
+.sidebar ul li a.active,
+.sidebar ul li a:hover {
+  color: white;
+}
+
+.sidebar ul li a.active + ul {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    margin-top: 0;
+    background-color: black;
+    width: 100%;
+    transition: width 0.3s ease;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .sidebar.collapsed {
+    width: 60px;
+  }
+
+  .sidebar .toggle-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s ease;
+  }
+
+  .sidebar.collapsed .toggle-btn {
+    justify-content: flex-start;
+  }
+
+  .sidebar .toggle-btn i {
+    transition: all 0.3s ease;
+  }
+
+  .sidebar.collapsed .toggle-btn i {
+    margin-left: 5px;
+  }
+
+  .sidebar ul {
+    color: white;
+    padding-left: 0;
+    margin-top: 3rem;
+    list-style-type: none;
+  }
+
+  .sidebar ul li {
+    margin-bottom: 2rem;
+  }
+
+  .sidebar ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+  }
+
+  .sidebar ul li a h5 {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .sidebar ul li a i {
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  .sidebar ul li ul {
+    display: none;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .sidebar ul li ul li {
+    margin-bottom: 1rem;
+  }
+
+  .sidebar ul li ul li a {
+    color: white;
+    font-size: 0.9rem;
+  }
+
+  .sidebar ul li ul li a i {
+    margin-right: 0.5rem;
+  }
+
+  .sidebar ul li a.active,
+  .sidebar ul li a:hover {
+    color: #ffcc00;
+  }
+
+  .sidebar ul li a.active + ul {
+    display: block;
+  }
+}
