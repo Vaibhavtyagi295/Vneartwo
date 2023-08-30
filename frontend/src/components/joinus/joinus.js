@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Grid, Typography, Button, Paper } from '@mui/material';
 import { FaBoxOpen, FaStore, FaUtensils, FaHandsHelping } from 'react-icons/fa';
-import Translator from '../../Trans'; 
+
 import './join.css';
 
 const JoinUs = () => {
@@ -61,7 +61,7 @@ const JoinUs = () => {
             </Paper>
           </Grid>
         </Grid>
-        <Translator/>
+    
       </Container>
     </div>
   );
